@@ -26,7 +26,7 @@ function dgclock(){
     const date=time.getDate();
     const year=time.getFullYear();
     let may=time.getDay();
-    const mon=time.getMonth();
+    const mon=time.getMonth()+1;
 
     if(btn.textContent == "Change to ~ 24-HRS"){
 
